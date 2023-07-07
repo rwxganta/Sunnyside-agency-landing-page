@@ -10,18 +10,20 @@
 
 <body>
     <header>
-        <img src="images/logo.svg" alt="">
-        <img src="images/icon-hamburger.svg" alt="">
-        <nav aria-label='primary'>
+        <img class='logo' src="images/logo.svg" alt="">
+        <button id='menuBtn'>
+            <img src="images/icon-hamburger.svg" alt="">
+        </button>
+        <nav class='manu' aria-label='primary'>
             <ul>
                 <li><a href='#'>About</a></li>
                 <li><a href='#'>Services</a></li>
                 <li><a href='#'>Projects</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a class='contact' href='#'>Contact</a></li>
             </ul>
         </nav>
         <h1>We are creatives</h1>
-        <img src="/images/icon-arrow-down.svg" alt="">
+        <img class='arrow' src="/images/icon-arrow-down.svg" alt="">
     </header>
     
     <section class='grid-section'>
@@ -46,12 +48,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="row-content">
+            <div class="row-content design">
                 <h2>Graphic design</h2>
                 <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
             </div>
 
-            <div class="row-content">
+            <div class="row-content photography">
                 <h2>Photography</h2>
                 <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
             </div>
@@ -59,29 +61,29 @@
     </section>
 
     <section class='testimonials'>
-        <h2>Client testimonials</h2>
+        <h2 class='testimonials-title'>Client testimonials</h2>
         <div class="testimonial">
             <img src="/images/image-emily.jpg" alt="">
-            <p>We put trust in Sunnyside and they delivered, making our needs were met and deadlines were always hit.</p>
+            <p class='testimonial-body'>We put trust in Sunnyside and they delivered, making our needs were met and deadlines were always hit.</p>
             <div class="person-info">
-                <p>Emily R.</p>
-                <p>Marketing Director</p>
+                <p class='testimonial-name'>Emily R.</p>
+                <p class='testimonial-job'>Marketing Director</p>
             </div>
         </div>
         <div class="testimonial">
             <img src="./images/image-thomas.jpg" alt="">
-            <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+            <p class='testimonial-body'>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
             <div class="person-info">
-                <p>Thomas S.</p>
-                <p>Chief Operation Officer</p>
+                <p class='testimonial-name'>Thomas S.</p>
+                <p class='testimonial-job'>Chief Operation Officer</p>
             </div>
         </div>
         <div class="testimonial">
             <img src="/images/image-jennie.jpg" alt="">
-            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <p class='testimonial-body'>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
             <div class="person-info">
-                <p>Jennie F.</p>
-                <p>business Owner</p>
+                <p class='testimonial-name'>Jennie F.</p>
+                <p class='testimonial-job'>business Owner</p>
             </div>
         </div>
     </section>
@@ -118,7 +120,7 @@
                 <li><a href='#'>Projects</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class='socials'>
             <li><a href="#">
                 <img src="/images/icon-facebook.svg" alt="">
             </a></li>
