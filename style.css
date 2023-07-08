@@ -150,7 +150,8 @@ h2 {
 
 header {
     padding-top: 2rem;
-    height: 90vh;
+    height: 100dvh;
+    height: 100vh;
 
     background-image: url(./images/mobile/image-header.jpg);
     background-repeat: no-repeat;
