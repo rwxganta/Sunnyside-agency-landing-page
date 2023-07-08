@@ -230,9 +230,6 @@ header h1 {
 /* Grid section */
 
 .grid-section {
-    outline: 2px dotted red;
-    outline-offset: -3px;
-
     display: grid;
 }
 
@@ -351,4 +348,11 @@ header h1 {
 .testimonial-job {
     font-size: 1rem;
     color: var(--neutral-Grayish-blue);
+}
+
+/* Grid photos */
+
+.grid-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
