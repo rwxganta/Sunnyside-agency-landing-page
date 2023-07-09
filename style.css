@@ -356,3 +356,47 @@ header h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+/* Footer */
+
+footer {
+    padding-block: 4rem;
+    background-color: var(--primary-Dark-moderate-cyan);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer svg {
+    fill: var(--primary-Dark-desaturated-cyan);
+}
+
+footer nav ul {
+    margin-block-end: 4rem;
+    padding: 0;
+    
+    display: flex;
+    gap: 3rem;
+}
+
+footer nav a {
+    color: var(--primary-Dark-desaturated-cyan);
+}
+
+.socials {
+    padding: 0;
+    
+    display: flex;
+    gap: 1.5rem;
+}
+
+.socials svg {
+    fill: hsl(167, 40%, 24%);
+}
+
+footer nav a:hover,
+.socials svg:hover {
+    fill: var(--neutral-White);
+    color: var(--neutral-White);
+}
