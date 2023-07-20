@@ -443,3 +443,44 @@ footer nav a:hover,
         color: var(--neutral-Very-dark-desaturated-blue) !important;
     }
 }
+
+@media (min-width: 720px) {
+    .row {
+        text-align: start;
+        flex-direction: row;
+    }
+
+    .row:not(:nth-child(3)) h2 {
+        text-align: start;
+    }
+
+    .row:nth-child(3) .row-content {
+        text-align: center;
+    }
+
+    .row:nth-child(1) picture {
+        order: 1;
+    }
+
+    .row > * {
+        width: 100%;
+    }
+
+    .row .wrapper {
+        margin-inline: 0;
+        display: grid;
+        place-content: center;
+    }
+
+    .row-content {
+        padding-inline: 6rem;
+    }
+
+    .design {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+    }
+
+    .photography {
+        background-image: url(./images/desktop/image-photography.jpg);
+    }
+}
