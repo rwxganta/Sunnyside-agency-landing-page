@@ -483,4 +483,20 @@ footer nav a:hover,
     .photography {
         background-image: url(./images/desktop/image-photography.jpg);
     }
+
+    .testimonials {
+        padding-block: 7rem;
+    }
+
+    .testimonials .wrapper {
+        max-width: 1110px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .testimonials .wrapper > * {
+        width: 100%;
+    }
 }
