@@ -500,3 +500,9 @@ footer nav a:hover,
         width: 100%;
     }
 }
+
+@media (min-width: 740px) {
+    .grid-images {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
